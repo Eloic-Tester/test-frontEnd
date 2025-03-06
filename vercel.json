@@ -5,5 +5,11 @@
         "src": "/(.*)",
         "dest": "dist/test-frontEnd/index.html"
       }
-    ]
+    ],
+    "builds": [
+        {
+          "src": "dist/<nom-du-projet>/index.html",
+          "use": "@vercel/static"
+        }
+      ]
   }
