@@ -9,10 +9,7 @@
   "routes": [
     {
       "src": "/edit-user/:id",
-      "dest": "/index.html",
-      "getPrerenderParams": {
-        "ids": ["1", "2", "3"] 
-      }
+      "dest": "/index.html"
     }
   ]
 }
