@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "dist/browser/index.html",
+        "src": "dist/test-frontEnd/browser/index.html",
         "use": "@vercel/static"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "dist/browser/index.html"
+        "dest": "dist/test-frontEnd/browser/index.html"
       }
     ]
   }
