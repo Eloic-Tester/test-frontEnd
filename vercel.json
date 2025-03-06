@@ -7,14 +7,14 @@
   },
   "builds": [
     {
-      "src": "dist/test-front-end/browser/index.html",
+      "src": "dist/index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "dist/test-front-end/browser/index.html"
+      "dest": "dist/index.html"
     }
   ]
 }
