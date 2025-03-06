@@ -3,7 +3,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "dist/test-frontEnd/browser/index.html"
+        "dest": "dist"
       }
     ]
   }
